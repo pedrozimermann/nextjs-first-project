@@ -14,6 +14,10 @@ const navLinks = [
     label: "Posts",
     href: "/posts",
   },
+  {
+    label: "CreatePost",
+    href: "/create-post",
+  },
 ];
 
 export default function Header() {

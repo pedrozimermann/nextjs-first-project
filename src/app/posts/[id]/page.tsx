@@ -3,7 +3,6 @@ export default async function Page(
 ) {
   const response = await fetch(`https://dummyjson.com/posts/${params.id}`);
   const post = await response.json();
-
   return (
     <main className="px-7 pt-24 text-center">
       <h1 className="text-5xl mb-7 font-semibold">{post.title}</h1>
