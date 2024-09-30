@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/PKief/vscode-material-icon-theme/ec559a9f6bfd399b82bb44393651661b08aaf7ba/icons/folder-markdown-open.svg" width="20%" alt="NEXTJS-FIRST-PROJECT-logo">
+  <img src="https://cdn-icons-png.flaticon.com/512/6295/6295417.png" width="20%" alt="NEXTJS-FIRST-PROJECT-logo">
 </p>
 <p align="center">
     <h1 align="center">NEXTJS-FIRST-PROJECT</h1>
@@ -8,48 +8,49 @@
     <em><code>❯ REPLACE-ME</code></em>
 </p>
 <p align="center">
-	<img src="https://img.shields.io/github/license/pedrozimermann/nextjs-first-project?style=default&logo=opensourceinitiative&logoColor=white&color=0080ff" alt="license">
-	<img src="https://img.shields.io/github/last-commit/pedrozimermann/nextjs-first-project?style=default&logo=git&logoColor=white&color=0080ff" alt="last-commit">
-	<img src="https://img.shields.io/github/languages/top/pedrozimermann/nextjs-first-project?style=default&color=0080ff" alt="repo-top-language">
-	<img src="https://img.shields.io/github/languages/count/pedrozimermann/nextjs-first-project?style=default&color=0080ff" alt="repo-language-count">
+	<!-- Shields.io badges disabled, using skill icons. --></p>
+<p align="center">
+		<em>Built with the tools and technologies:</em>
 </p>
 <p align="center">
-	<!-- default option, no dependency badges. -->
-</p>
+	<a href="https://skillicons.dev">
+		<img src="https://skillicons.dev/icons?i=css,js,md,prisma,react,ts">
+	</a></p>
 
 <br>
 
-#####  Table of Contents
+<details><summary>Table of Contents</summary>
 
-- [ Overview](#-overview)
-- [ Features](#-features)
-- [ Repository Structure](#-repository-structure)
-- [ Modules](#-modules)
-- [ Getting Started](#-getting-started)
-    - [ Prerequisites](#-prerequisites)
-    - [ Installation](#-installation)
-    - [ Usage](#-usage)
-    - [ Tests](#-tests)
-- [ Project Roadmap](#-project-roadmap)
-- [ Contributing](#-contributing)
-- [ License](#-license)
-- [ Acknowledgments](#-acknowledgments)
+- [📍 Overview](#-overview)
+- [👾 Features](#-features)
+- [📂 Repository Structure](#-repository-structure)
+- [🧩 Modules](#-modules)
+- [🚀 Getting Started](#-getting-started)
+    - [🔖 Prerequisites](#-prerequisites)
+    - [📦 Installation](#-installation)
+    - [🤖 Usage](#-usage)
+    - [🧪 Tests](#-tests)
+- [📌 Project Roadmap](#-project-roadmap)
+- [🤝 Contributing](#-contributing)
+- [🎗 License](#-license)
+- [🙌 Acknowledgments](#-acknowledgments)
 
----
+</details>
+<hr>
 
-##  Overview
-
-<code>❯ REPLACE-ME</code>
-
----
-
-##  Features
+## 📍 Overview
 
 <code>❯ REPLACE-ME</code>
 
 ---
 
-##  Repository Structure
+## 👾 Features
+
+<code>❯ REPLACE-ME</code>
+
+---
+
+## 📂 Repository Structure
 
 ```sh
 └── nextjs-first-project/
@@ -75,26 +76,18 @@
 
 ---
 
-##  Modules
+## 🧩 Modules
 
 <details closed><summary>.</summary>
 
 | File | Summary |
 | --- | --- |
-| [package-lock.json](https://github.com/pedrozimermann/nextjs-first-project/blob/main/package-lock.json) | <code>❯ REPLACE-ME</code> |
 | [postcss.config.mjs](https://github.com/pedrozimermann/nextjs-first-project/blob/main/postcss.config.mjs) | <code>❯ REPLACE-ME</code> |
-| [package.json](https://github.com/pedrozimermann/nextjs-first-project/blob/main/package.json) | <code>❯ REPLACE-ME</code> |
-| [tsconfig.json](https://github.com/pedrozimermann/nextjs-first-project/blob/main/tsconfig.json) | <code>❯ REPLACE-ME</code> |
 | [tailwind.config.ts](https://github.com/pedrozimermann/nextjs-first-project/blob/main/tailwind.config.ts) | <code>❯ REPLACE-ME</code> |
+| [tsconfig.json](https://github.com/pedrozimermann/nextjs-first-project/blob/main/tsconfig.json) | <code>❯ REPLACE-ME</code> |
+| [package.json](https://github.com/pedrozimermann/nextjs-first-project/blob/main/package.json) | <code>❯ REPLACE-ME</code> |
 | [next.config.mjs](https://github.com/pedrozimermann/nextjs-first-project/blob/main/next.config.mjs) | <code>❯ REPLACE-ME</code> |
-
-</details>
-
-<details closed><summary>prisma</summary>
-
-| File | Summary |
-| --- | --- |
-| [schema.prisma](https://github.com/pedrozimermann/nextjs-first-project/blob/main/prisma/schema.prisma) | <code>❯ REPLACE-ME</code> |
+| [package-lock.json](https://github.com/pedrozimermann/nextjs-first-project/blob/main/package-lock.json) | <code>❯ REPLACE-ME</code> |
 
 </details>
 
@@ -114,6 +107,18 @@
 
 </details>
 
+<details closed><summary>src.components</summary>
+
+| File | Summary |
+| --- | --- |
+| [container.tsx](https://github.com/pedrozimermann/nextjs-first-project/blob/main/src/components/container.tsx) | <code>❯ REPLACE-ME</code> |
+| [header.tsx](https://github.com/pedrozimermann/nextjs-first-project/blob/main/src/components/header.tsx) | <code>❯ REPLACE-ME</code> |
+| [posts-list.tsx](https://github.com/pedrozimermann/nextjs-first-project/blob/main/src/components/posts-list.tsx) | <code>❯ REPLACE-ME</code> |
+| [footer.tsx](https://github.com/pedrozimermann/nextjs-first-project/blob/main/src/components/footer.tsx) | <code>❯ REPLACE-ME</code> |
+| [form.tsx](https://github.com/pedrozimermann/nextjs-first-project/blob/main/src/components/form.tsx) | <code>❯ REPLACE-ME</code> |
+
+</details>
+
 <details closed><summary>src.lib</summary>
 
 | File | Summary |
@@ -122,33 +127,13 @@
 
 </details>
 
-<details closed><summary>src.components</summary>
-
-| File | Summary |
-| --- | --- |
-| [header.tsx](https://github.com/pedrozimermann/nextjs-first-project/blob/main/src/components/header.tsx) | <code>❯ REPLACE-ME</code> |
-| [container.tsx](https://github.com/pedrozimermann/nextjs-first-project/blob/main/src/components/container.tsx) | <code>❯ REPLACE-ME</code> |
-| [form.tsx](https://github.com/pedrozimermann/nextjs-first-project/blob/main/src/components/form.tsx) | <code>❯ REPLACE-ME</code> |
-| [footer.tsx](https://github.com/pedrozimermann/nextjs-first-project/blob/main/src/components/footer.tsx) | <code>❯ REPLACE-ME</code> |
-| [posts-list.tsx](https://github.com/pedrozimermann/nextjs-first-project/blob/main/src/components/posts-list.tsx) | <code>❯ REPLACE-ME</code> |
-
-</details>
-
 <details closed><summary>src.app</summary>
 
 | File | Summary |
 | --- | --- |
-| [layout.tsx](https://github.com/pedrozimermann/nextjs-first-project/blob/main/src/app/layout.tsx) | <code>❯ REPLACE-ME</code> |
-| [page.tsx](https://github.com/pedrozimermann/nextjs-first-project/blob/main/src/app/page.tsx) | <code>❯ REPLACE-ME</code> |
 | [globals.css](https://github.com/pedrozimermann/nextjs-first-project/blob/main/src/app/globals.css) | <code>❯ REPLACE-ME</code> |
-
-</details>
-
-<details closed><summary>src.app.create-post</summary>
-
-| File | Summary |
-| --- | --- |
-| [page.tsx](https://github.com/pedrozimermann/nextjs-first-project/blob/main/src/app/create-post/page.tsx) | <code>❯ REPLACE-ME</code> |
+| [page.tsx](https://github.com/pedrozimermann/nextjs-first-project/blob/main/src/app/page.tsx) | <code>❯ REPLACE-ME</code> |
+| [layout.tsx](https://github.com/pedrozimermann/nextjs-first-project/blob/main/src/app/layout.tsx) | <code>❯ REPLACE-ME</code> |
 
 </details>
 
@@ -169,6 +154,14 @@
 
 </details>
 
+<details closed><summary>src.app.create-post</summary>
+
+| File | Summary |
+| --- | --- |
+| [page.tsx](https://github.com/pedrozimermann/nextjs-first-project/blob/main/src/app/create-post/page.tsx) | <code>❯ REPLACE-ME</code> |
+
+</details>
+
 <details closed><summary>src.app.api.auth.[kindeAuth]</summary>
 
 | File | Summary |
@@ -177,15 +170,23 @@
 
 </details>
 
+<details closed><summary>prisma</summary>
+
+| File | Summary |
+| --- | --- |
+| [schema.prisma](https://github.com/pedrozimermann/nextjs-first-project/blob/main/prisma/schema.prisma) | <code>❯ REPLACE-ME</code> |
+
+</details>
+
 ---
 
-##  Getting Started
+## 🚀 Getting Started
 
-###  Prerequisites
+### 🔖 Prerequisites
 
 **TypeScript**: `version x.y.z`
 
-###  Installation
+### 📦 Installation
 
 Build the project from source:
 
@@ -204,7 +205,7 @@ Build the project from source:
 ❯ npm install
 ```
 
-###  Usage
+### 🤖 Usage
 
 To run the project, execute the following command:
 
@@ -212,7 +213,7 @@ To run the project, execute the following command:
 ❯ npm run build && node dist/main.js
 ```
 
-###  Tests
+### 🧪 Tests
 
 Execute the test suite using the following command:
 
@@ -222,7 +223,7 @@ Execute the test suite using the following command:
 
 ---
 
-##  Project Roadmap
+## 📌 Project Roadmap
 
 - [X] **`Task 1`**: <strike>Implement feature one.</strike>
 - [ ] **`Task 2`**: Implement feature two.
@@ -230,7 +231,7 @@ Execute the test suite using the following command:
 
 ---
 
-##  Contributing
+## 🤝 Contributing
 
 Contributions are welcome! Here are several ways you can contribute:
 
@@ -275,13 +276,13 @@ Contributions are welcome! Here are several ways you can contribute:
 
 ---
 
-##  License
+## 🎗 License
 
 This project is protected under the [SELECT-A-LICENSE](https://choosealicense.com/licenses) License. For more details, refer to the [LICENSE](https://choosealicense.com/licenses/) file.
 
 ---
 
-##  Acknowledgments
+## 🙌 Acknowledgments
 
 - List any resources, contributors, inspiration, etc. here.
 
