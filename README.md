@@ -1,17 +1,17 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/PKief/vscode-material-icon-theme/ec559a9f6bfd399b82bb44393651661b08aaf7ba/icons/folder-markdown-open.svg" width="20%" alt="README-AI-logo">
+  <img src="https://raw.githubusercontent.com/PKief/vscode-material-icon-theme/ec559a9f6bfd399b82bb44393651661b08aaf7ba/icons/folder-markdown-open.svg" width="20%" alt="NEXTJS-FIRST-PROJECT-logo">
 </p>
 <p align="center">
-    <h1 align="center">README-AI</h1>
+    <h1 align="center">NEXTJS-FIRST-PROJECT</h1>
 </p>
 <p align="center">
     <em><code>❯ REPLACE-ME</code></em>
 </p>
 <p align="center">
-	<img src="https://img.shields.io/github/license/eli64s/readme-ai?style=default&logo=opensourceinitiative&logoColor=white&color=0080ff" alt="license">
-	<img src="https://img.shields.io/github/last-commit/eli64s/readme-ai?style=default&logo=git&logoColor=white&color=0080ff" alt="last-commit">
-	<img src="https://img.shields.io/github/languages/top/eli64s/readme-ai?style=default&color=0080ff" alt="repo-top-language">
-	<img src="https://img.shields.io/github/languages/count/eli64s/readme-ai?style=default&color=0080ff" alt="repo-language-count">
+	<img src="https://img.shields.io/github/license/pedrozimermann/nextjs-first-project?style=default&logo=opensourceinitiative&logoColor=white&color=0080ff" alt="license">
+	<img src="https://img.shields.io/github/last-commit/pedrozimermann/nextjs-first-project?style=default&logo=git&logoColor=white&color=0080ff" alt="last-commit">
+	<img src="https://img.shields.io/github/languages/top/pedrozimermann/nextjs-first-project?style=default&color=0080ff" alt="repo-top-language">
+	<img src="https://img.shields.io/github/languages/count/pedrozimermann/nextjs-first-project?style=default&color=0080ff" alt="repo-language-count">
 </p>
 <p align="center">
 	<!-- default option, no dependency badges. -->
@@ -52,65 +52,25 @@
 ##  Repository Structure
 
 ```sh
-└── readme-ai/
-    ├── .github
-    │   ├── release-drafter.yml
-    │   └── workflows
-    ├── CHANGELOG.md
-    ├── CODE_OF_CONDUCT.md
-    ├── CONTRIBUTING.md
-    ├── Dockerfile
-    ├── LICENSE
-    ├── Makefile
+└── nextjs-first-project/
     ├── README.md
-    ├── docs
-    │   ├── css
-    │   ├── docs
-    │   ├── js
-    │   └── overrides
-    ├── examples
-    │   ├── images
-    │   └── markdown
-    ├── mkdocs.yml
-    ├── noxfile.py
-    ├── poetry.lock
-    ├── pyproject.toml
-    ├── readmeai
-    │   ├── __init__.py
-    │   ├── __main__.py
-    │   ├── _exceptions.py
-    │   ├── cli
-    │   ├── config
-    │   ├── core
-    │   ├── generators
-    │   ├── models
-    │   ├── parsers
-    │   ├── templates
-    │   ├── utils
-    │   └── vcs
-    ├── scripts
-    │   ├── clean.sh
-    │   ├── docker.sh
-    │   ├── pypi.sh
-    │   └── run_batch.sh
-    ├── setup
-    │   ├── environment.yaml
-    │   ├── requirements.txt
-    │   └── setup.sh
-    └── tests
-        ├── __init__.py
-        ├── cli
-        ├── config
-        ├── conftest.py
-        ├── core
-        ├── generators
-        ├── models
-        ├── parsers
-        ├── templates
-        ├── test_exceptions.py
-        ├── test_main.py
-        ├── utils
-        └── vcs
+    ├── next.config.mjs
+    ├── package-lock.json
+    ├── package.json
+    ├── postcss.config.mjs
+    ├── prisma
+    │   └── schema.prisma
+    ├── public
+    │   ├── next.svg
+    │   └── vercel.svg
+    ├── src
+    │   ├── actions
+    │   ├── app
+    │   ├── components
+    │   ├── lib
+    │   └── middleware.ts
+    ├── tailwind.config.ts
+    └── tsconfig.json
 ```
 
 ---
@@ -121,197 +81,99 @@
 
 | File | Summary |
 | --- | --- |
-| [pyproject.toml](https://github.com/eli64s/readme-ai/blob/main/pyproject.toml) | <code>❯ REPLACE-ME</code> |
-| [Makefile](https://github.com/eli64s/readme-ai/blob/main/Makefile) | <code>❯ REPLACE-ME</code> |
-| [noxfile.py](https://github.com/eli64s/readme-ai/blob/main/noxfile.py) | <code>❯ REPLACE-ME</code> |
-| [Dockerfile](https://github.com/eli64s/readme-ai/blob/main/Dockerfile) | <code>❯ REPLACE-ME</code> |
+| [package-lock.json](https://github.com/pedrozimermann/nextjs-first-project/blob/main/package-lock.json) | <code>❯ REPLACE-ME</code> |
+| [postcss.config.mjs](https://github.com/pedrozimermann/nextjs-first-project/blob/main/postcss.config.mjs) | <code>❯ REPLACE-ME</code> |
+| [package.json](https://github.com/pedrozimermann/nextjs-first-project/blob/main/package.json) | <code>❯ REPLACE-ME</code> |
+| [tsconfig.json](https://github.com/pedrozimermann/nextjs-first-project/blob/main/tsconfig.json) | <code>❯ REPLACE-ME</code> |
+| [tailwind.config.ts](https://github.com/pedrozimermann/nextjs-first-project/blob/main/tailwind.config.ts) | <code>❯ REPLACE-ME</code> |
+| [next.config.mjs](https://github.com/pedrozimermann/nextjs-first-project/blob/main/next.config.mjs) | <code>❯ REPLACE-ME</code> |
 
 </details>
 
-<details closed><summary>scripts</summary>
+<details closed><summary>prisma</summary>
 
 | File | Summary |
 | --- | --- |
-| [docker.sh](https://github.com/eli64s/readme-ai/blob/main/scripts/docker.sh) | <code>❯ REPLACE-ME</code> |
-| [pypi.sh](https://github.com/eli64s/readme-ai/blob/main/scripts/pypi.sh) | <code>❯ REPLACE-ME</code> |
-| [clean.sh](https://github.com/eli64s/readme-ai/blob/main/scripts/clean.sh) | <code>❯ REPLACE-ME</code> |
-| [run_batch.sh](https://github.com/eli64s/readme-ai/blob/main/scripts/run_batch.sh) | <code>❯ REPLACE-ME</code> |
+| [schema.prisma](https://github.com/pedrozimermann/nextjs-first-project/blob/main/prisma/schema.prisma) | <code>❯ REPLACE-ME</code> |
 
 </details>
 
-<details closed><summary>.github</summary>
+<details closed><summary>src</summary>
 
 | File | Summary |
 | --- | --- |
-| [release-drafter.yml](https://github.com/eli64s/readme-ai/blob/main/.github/release-drafter.yml) | <code>❯ REPLACE-ME</code> |
+| [middleware.ts](https://github.com/pedrozimermann/nextjs-first-project/blob/main/src/middleware.ts) | <code>❯ REPLACE-ME</code> |
 
 </details>
 
-<details closed><summary>.github.workflows</summary>
+<details closed><summary>src.actions</summary>
 
 | File | Summary |
 | --- | --- |
-| [release-drafter.yml](https://github.com/eli64s/readme-ai/blob/main/.github/workflows/release-drafter.yml) | <code>❯ REPLACE-ME</code> |
-| [release-pipeline.yml](https://github.com/eli64s/readme-ai/blob/main/.github/workflows/release-pipeline.yml) | <code>❯ REPLACE-ME</code> |
-| [coverage.yml](https://github.com/eli64s/readme-ai/blob/main/.github/workflows/coverage.yml) | <code>❯ REPLACE-ME</code> |
+| [actions.ts](https://github.com/pedrozimermann/nextjs-first-project/blob/main/src/actions/actions.ts) | <code>❯ REPLACE-ME</code> |
 
 </details>
 
-<details closed><summary>tests</summary>
+<details closed><summary>src.lib</summary>
 
 | File | Summary |
 | --- | --- |
-| [parsers](https://github.com/eli64s/readme-ai/blob/main/tests/parsers) | <code>❯ REPLACE-ME</code> |
+| [db.ts](https://github.com/pedrozimermann/nextjs-first-project/blob/main/src/lib/db.ts) | <code>❯ REPLACE-ME</code> |
 
 </details>
 
-<details closed><summary>readmeai</summary>
+<details closed><summary>src.components</summary>
 
 | File | Summary |
 | --- | --- |
-| [_exceptions.py](https://github.com/eli64s/readme-ai/blob/main/readmeai/_exceptions.py) | <code>❯ REPLACE-ME</code> |
-| [__main__.py](https://github.com/eli64s/readme-ai/blob/main/readmeai/__main__.py) | <code>❯ REPLACE-ME</code> |
+| [header.tsx](https://github.com/pedrozimermann/nextjs-first-project/blob/main/src/components/header.tsx) | <code>❯ REPLACE-ME</code> |
+| [container.tsx](https://github.com/pedrozimermann/nextjs-first-project/blob/main/src/components/container.tsx) | <code>❯ REPLACE-ME</code> |
+| [form.tsx](https://github.com/pedrozimermann/nextjs-first-project/blob/main/src/components/form.tsx) | <code>❯ REPLACE-ME</code> |
+| [footer.tsx](https://github.com/pedrozimermann/nextjs-first-project/blob/main/src/components/footer.tsx) | <code>❯ REPLACE-ME</code> |
+| [posts-list.tsx](https://github.com/pedrozimermann/nextjs-first-project/blob/main/src/components/posts-list.tsx) | <code>❯ REPLACE-ME</code> |
 
 </details>
 
-<details closed><summary>readmeai.vcs</summary>
+<details closed><summary>src.app</summary>
 
 | File | Summary |
 | --- | --- |
-| [metadata.py](https://github.com/eli64s/readme-ai/blob/main/readmeai/vcs/metadata.py) | <code>❯ REPLACE-ME</code> |
-| [providers.py](https://github.com/eli64s/readme-ai/blob/main/readmeai/vcs/providers.py) | <code>❯ REPLACE-ME</code> |
-| [errors.py](https://github.com/eli64s/readme-ai/blob/main/readmeai/vcs/errors.py) | <code>❯ REPLACE-ME</code> |
-| [ingestor.py](https://github.com/eli64s/readme-ai/blob/main/readmeai/vcs/ingestor.py) | <code>❯ REPLACE-ME</code> |
-| [url_builder.py](https://github.com/eli64s/readme-ai/blob/main/readmeai/vcs/url_builder.py) | <code>❯ REPLACE-ME</code> |
+| [layout.tsx](https://github.com/pedrozimermann/nextjs-first-project/blob/main/src/app/layout.tsx) | <code>❯ REPLACE-ME</code> |
+| [page.tsx](https://github.com/pedrozimermann/nextjs-first-project/blob/main/src/app/page.tsx) | <code>❯ REPLACE-ME</code> |
+| [globals.css](https://github.com/pedrozimermann/nextjs-first-project/blob/main/src/app/globals.css) | <code>❯ REPLACE-ME</code> |
 
 </details>
 
-<details closed><summary>readmeai.templates</summary>
+<details closed><summary>src.app.create-post</summary>
 
 | File | Summary |
 | --- | --- |
-| [base_template.py](https://github.com/eli64s/readme-ai/blob/main/readmeai/templates/base_template.py) | <code>❯ REPLACE-ME</code> |
-| [header.py](https://github.com/eli64s/readme-ai/blob/main/readmeai/templates/header.py) | <code>❯ REPLACE-ME</code> |
-| [toc.py](https://github.com/eli64s/readme-ai/blob/main/readmeai/templates/toc.py) | <code>❯ REPLACE-ME</code> |
+| [page.tsx](https://github.com/pedrozimermann/nextjs-first-project/blob/main/src/app/create-post/page.tsx) | <code>❯ REPLACE-ME</code> |
 
 </details>
 
-<details closed><summary>readmeai.config</summary>
+<details closed><summary>src.app.posts</summary>
 
 | File | Summary |
 | --- | --- |
-| [settings.py](https://github.com/eli64s/readme-ai/blob/main/readmeai/config/settings.py) | <code>❯ REPLACE-ME</code> |
+| [page.tsx](https://github.com/pedrozimermann/nextjs-first-project/blob/main/src/app/posts/page.tsx) | <code>❯ REPLACE-ME</code> |
 
 </details>
 
-<details closed><summary>readmeai.config.settings</summary>
+<details closed><summary>src.app.posts.[id]</summary>
 
 | File | Summary |
 | --- | --- |
-| [languages.toml](https://github.com/eli64s/readme-ai/blob/main/readmeai/config/settings/languages.toml) | <code>❯ REPLACE-ME</code> |
-| [parsers.toml](https://github.com/eli64s/readme-ai/blob/main/readmeai/config/settings/parsers.toml) | <code>❯ REPLACE-ME</code> |
-| [prompts.toml](https://github.com/eli64s/readme-ai/blob/main/readmeai/config/settings/prompts.toml) | <code>❯ REPLACE-ME</code> |
-| [markdown.toml](https://github.com/eli64s/readme-ai/blob/main/readmeai/config/settings/markdown.toml) | <code>❯ REPLACE-ME</code> |
-| [quickstart.toml](https://github.com/eli64s/readme-ai/blob/main/readmeai/config/settings/quickstart.toml) | <code>❯ REPLACE-ME</code> |
-| [config.toml](https://github.com/eli64s/readme-ai/blob/main/readmeai/config/settings/config.toml) | <code>❯ REPLACE-ME</code> |
-| [ignore_list.toml](https://github.com/eli64s/readme-ai/blob/main/readmeai/config/settings/ignore_list.toml) | <code>❯ REPLACE-ME</code> |
-| [commands.toml](https://github.com/eli64s/readme-ai/blob/main/readmeai/config/settings/commands.toml) | <code>❯ REPLACE-ME</code> |
+| [not-found.tsx](https://github.com/pedrozimermann/nextjs-first-project/blob/main/src/app/posts/[id]/not-found.tsx) | <code>❯ REPLACE-ME</code> |
+| [page.tsx](https://github.com/pedrozimermann/nextjs-first-project/blob/main/src/app/posts/[id]/page.tsx) | <code>❯ REPLACE-ME</code> |
 
 </details>
 
-<details closed><summary>readmeai.cli</summary>
+<details closed><summary>src.app.api.auth.[kindeAuth]</summary>
 
 | File | Summary |
 | --- | --- |
-| [main.py](https://github.com/eli64s/readme-ai/blob/main/readmeai/cli/main.py) | <code>❯ REPLACE-ME</code> |
-| [options.py](https://github.com/eli64s/readme-ai/blob/main/readmeai/cli/options.py) | <code>❯ REPLACE-ME</code> |
-
-</details>
-
-<details closed><summary>readmeai.models</summary>
-
-| File | Summary |
-| --- | --- |
-| [openai.py](https://github.com/eli64s/readme-ai/blob/main/readmeai/models/openai.py) | <code>❯ REPLACE-ME</code> |
-| [gemini.py](https://github.com/eli64s/readme-ai/blob/main/readmeai/models/gemini.py) | <code>❯ REPLACE-ME</code> |
-| [tokens.py](https://github.com/eli64s/readme-ai/blob/main/readmeai/models/tokens.py) | <code>❯ REPLACE-ME</code> |
-| [dalle.py](https://github.com/eli64s/readme-ai/blob/main/readmeai/models/dalle.py) | <code>❯ REPLACE-ME</code> |
-| [offline.py](https://github.com/eli64s/readme-ai/blob/main/readmeai/models/offline.py) | <code>❯ REPLACE-ME</code> |
-| [prompts.py](https://github.com/eli64s/readme-ai/blob/main/readmeai/models/prompts.py) | <code>❯ REPLACE-ME</code> |
-| [factory.py](https://github.com/eli64s/readme-ai/blob/main/readmeai/models/factory.py) | <code>❯ REPLACE-ME</code> |
-
-</details>
-
-<details closed><summary>readmeai.utils</summary>
-
-| File | Summary |
-| --- | --- |
-| [file_resources.py](https://github.com/eli64s/readme-ai/blob/main/readmeai/utils/file_resources.py) | <code>❯ REPLACE-ME</code> |
-| [text_cleaner.py](https://github.com/eli64s/readme-ai/blob/main/readmeai/utils/text_cleaner.py) | <code>❯ REPLACE-ME</code> |
-| [file_handler.py](https://github.com/eli64s/readme-ai/blob/main/readmeai/utils/file_handler.py) | <code>❯ REPLACE-ME</code> |
-
-</details>
-
-<details closed><summary>readmeai.generators</summary>
-
-| File | Summary |
-| --- | --- |
-| [badges.py](https://github.com/eli64s/readme-ai/blob/main/readmeai/generators/badges.py) | <code>❯ REPLACE-ME</code> |
-| [tree.py](https://github.com/eli64s/readme-ai/blob/main/readmeai/generators/tree.py) | <code>❯ REPLACE-ME</code> |
-| [tables.py](https://github.com/eli64s/readme-ai/blob/main/readmeai/generators/tables.py) | <code>❯ REPLACE-ME</code> |
-| [quickstart.py](https://github.com/eli64s/readme-ai/blob/main/readmeai/generators/quickstart.py) | <code>❯ REPLACE-ME</code> |
-| [utils.py](https://github.com/eli64s/readme-ai/blob/main/readmeai/generators/utils.py) | <code>❯ REPLACE-ME</code> |
-| [builder.py](https://github.com/eli64s/readme-ai/blob/main/readmeai/generators/builder.py) | <code>❯ REPLACE-ME</code> |
-
-</details>
-
-<details closed><summary>readmeai.generators.svg</summary>
-
-| File | Summary |
-| --- | --- |
-| [skill_icons.json](https://github.com/eli64s/readme-ai/blob/main/readmeai/generators/svg/skill_icons.json) | <code>❯ REPLACE-ME</code> |
-| [shieldsio_icons.json](https://github.com/eli64s/readme-ai/blob/main/readmeai/generators/svg/shieldsio_icons.json) | <code>❯ REPLACE-ME</code> |
-
-</details>
-
-<details closed><summary>readmeai.core</summary>
-
-| File | Summary |
-| --- | --- |
-| [parsers.py](https://github.com/eli64s/readme-ai/blob/main/readmeai/core/parsers.py) | <code>❯ REPLACE-ME</code> |
-| [preprocess.py](https://github.com/eli64s/readme-ai/blob/main/readmeai/core/preprocess.py) | <code>❯ REPLACE-ME</code> |
-| [models.py](https://github.com/eli64s/readme-ai/blob/main/readmeai/core/models.py) | <code>❯ REPLACE-ME</code> |
-| [logger.py](https://github.com/eli64s/readme-ai/blob/main/readmeai/core/logger.py) | <code>❯ REPLACE-ME</code> |
-| [utils.py](https://github.com/eli64s/readme-ai/blob/main/readmeai/core/utils.py) | <code>❯ REPLACE-ME</code> |
-
-</details>
-
-<details closed><summary>readmeai.parsers</summary>
-
-| File | Summary |
-| --- | --- |
-| [gradle.py](https://github.com/eli64s/readme-ai/blob/main/readmeai/parsers/gradle.py) | <code>❯ REPLACE-ME</code> |
-| [python.py](https://github.com/eli64s/readme-ai/blob/main/readmeai/parsers/python.py) | <code>❯ REPLACE-ME</code> |
-| [rust.py](https://github.com/eli64s/readme-ai/blob/main/readmeai/parsers/rust.py) | <code>❯ REPLACE-ME</code> |
-| [go.py](https://github.com/eli64s/readme-ai/blob/main/readmeai/parsers/go.py) | <code>❯ REPLACE-ME</code> |
-| [cpp.py](https://github.com/eli64s/readme-ai/blob/main/readmeai/parsers/cpp.py) | <code>❯ REPLACE-ME</code> |
-| [maven.py](https://github.com/eli64s/readme-ai/blob/main/readmeai/parsers/maven.py) | <code>❯ REPLACE-ME</code> |
-| [swift.py](https://github.com/eli64s/readme-ai/blob/main/readmeai/parsers/swift.py) | <code>❯ REPLACE-ME</code> |
-| [npm.py](https://github.com/eli64s/readme-ai/blob/main/readmeai/parsers/npm.py) | <code>❯ REPLACE-ME</code> |
-| [properties.py](https://github.com/eli64s/readme-ai/blob/main/readmeai/parsers/properties.py) | <code>❯ REPLACE-ME</code> |
-| [yarn.py](https://github.com/eli64s/readme-ai/blob/main/readmeai/parsers/yarn.py) | <code>❯ REPLACE-ME</code> |
-| [docker.py](https://github.com/eli64s/readme-ai/blob/main/readmeai/parsers/docker.py) | <code>❯ REPLACE-ME</code> |
-| [factory.py](https://github.com/eli64s/readme-ai/blob/main/readmeai/parsers/factory.py) | <code>❯ REPLACE-ME</code> |
-
-</details>
-
-<details closed><summary>setup</summary>
-
-| File | Summary |
-| --- | --- |
-| [setup.sh](https://github.com/eli64s/readme-ai/blob/main/setup/setup.sh) | <code>❯ REPLACE-ME</code> |
-| [requirements.txt](https://github.com/eli64s/readme-ai/blob/main/setup/requirements.txt) | <code>❯ REPLACE-ME</code> |
-| [environment.yaml](https://github.com/eli64s/readme-ai/blob/main/setup/environment.yaml) | <code>❯ REPLACE-ME</code> |
+| [route.js](https://github.com/pedrozimermann/nextjs-first-project/blob/main/src/app/api/auth/[kindeAuth]/route.js) | <code>❯ REPLACE-ME</code> |
 
 </details>
 
@@ -321,25 +183,25 @@
 
 ###  Prerequisites
 
-**Python**: `version x.y.z`
+**TypeScript**: `version x.y.z`
 
 ###  Installation
 
 Build the project from source:
 
-1. Clone the readme-ai repository:
+1. Clone the nextjs-first-project repository:
 ```sh
-❯ git clone https://github.com/eli64s/readme-ai
+❯ git clone https://github.com/pedrozimermann/nextjs-first-project
 ```
 
 2. Navigate to the project directory:
 ```sh
-❯ cd readme-ai
+❯ cd nextjs-first-project
 ```
 
 3. Install the required dependencies:
 ```sh
-❯ pip install -r requirements.txt
+❯ npm install
 ```
 
 ###  Usage
@@ -347,7 +209,7 @@ Build the project from source:
 To run the project, execute the following command:
 
 ```sh
-❯ python main.py
+❯ npm run build && node dist/main.js
 ```
 
 ###  Tests
@@ -355,7 +217,7 @@ To run the project, execute the following command:
 Execute the test suite using the following command:
 
 ```sh
-❯ pytest
+❯ npm test
 ```
 
 ---
@@ -372,9 +234,9 @@ Execute the test suite using the following command:
 
 Contributions are welcome! Here are several ways you can contribute:
 
-- **[Report Issues](https://github.com/eli64s/readme-ai/issues)**: Submit bugs found or log feature requests for the `readme-ai` project.
-- **[Submit Pull Requests](https://github.com/eli64s/readme-ai/blob/main/CONTRIBUTING.md)**: Review open PRs, and submit your own PRs.
-- **[Join the Discussions](https://github.com/eli64s/readme-ai/discussions)**: Share your insights, provide feedback, or ask questions.
+- **[Report Issues](https://github.com/pedrozimermann/nextjs-first-project/issues)**: Submit bugs found or log feature requests for the `nextjs-first-project` project.
+- **[Submit Pull Requests](https://github.com/pedrozimermann/nextjs-first-project/blob/main/CONTRIBUTING.md)**: Review open PRs, and submit your own PRs.
+- **[Join the Discussions](https://github.com/pedrozimermann/nextjs-first-project/discussions)**: Share your insights, provide feedback, or ask questions.
 
 <details closed>
 <summary>Contributing Guidelines</summary>
@@ -382,7 +244,7 @@ Contributions are welcome! Here are several ways you can contribute:
 1. **Fork the Repository**: Start by forking the project repository to your github account.
 2. **Clone Locally**: Clone the forked repository to your local machine using a git client.
    ```sh
-   git clone https://github.com/eli64s/readme-ai
+   git clone https://github.com/pedrozimermann/nextjs-first-project
    ```
 3. **Create a New Branch**: Always work on a new branch, giving it a descriptive name.
    ```sh
@@ -405,8 +267,8 @@ Contributions are welcome! Here are several ways you can contribute:
 <summary>Contributor Graph</summary>
 <br>
 <p align="left">
-   <a href="https://github.com{/eli64s/readme-ai/}graphs/contributors">
-      <img src="https://contrib.rocks/image?repo=eli64s/readme-ai">
+   <a href="https://github.com{/pedrozimermann/nextjs-first-project/}graphs/contributors">
+      <img src="https://contrib.rocks/image?repo=pedrozimermann/nextjs-first-project">
    </a>
 </p>
 </details>
